@@ -40,20 +40,20 @@ while [[ true ]]; do
 	read -p "请输入连接数据库的地址(默认:$host):" hosts
 	echo -e -n "\e[0m"
 	if [ ! -z $hosts ];   then 
-		host = $hosts
+		host=$hosts
 	fi
 	echo -e -n ${color_list[1]}
 	read -p "请输入连接数据库的端口号(默认:$port):" posts
 	echo -e -n "\e[0m"
 	if [ ! -z $posts ];   then 
-		port = $posts
+		port=$posts
 	fi
 
 	echo -e -n ${color_list[1]}
 	read -p "请输入备份数据库的路径(默认:$backdir):" backdirs
 	echo -e -n "\e[0m"
 	if [ ! -z $backdirs ];   then 
-		host = $backdirs
+		backdir=$backdirs
 	fi
 
 	mysql -u$user  -h$host -P$port -e "select version()" -p$passwd > /dev/null 2>&1
