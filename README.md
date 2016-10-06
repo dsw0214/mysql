@@ -44,4 +44,17 @@
   &emsp;&emsp;请输入你将要创建的表对应的数据库名称:test001<br />
   &emsp;&emsp;创建数据库【test001】成功！！<br />
 </p>
+<p>3. mysql_dump.py 备份指定前缀的数据库信息,备份的文件支持gzip压缩！生成的文件名字指定了的DB名称加上导出数据的时间!<br /><br />
+  &emsp;(1)运行脚本效果如下:<br />
+  &emsp;&emsp;请输入连接数据库的账号:root<br />
+  &emsp;&emsp;请输入连接数据库的密码:<br />
+  &emsp;&emsp;请输入连接数据库的地址(默认:127.0.0.1):127.0.0.1<br />
+  &emsp;&emsp;请输入导出数据库的前缀:test<br />
+  &emsp;&emsp;请输入连接数据库的端口号(默认:3306):3306<br />
+  &emsp;&emsp;请输入备份数据库的路径(默认:/home/,记得添加最后的斜线):/home/dbback/<br />
+  &emsp;&emsp;备份【test】数据成功！！<br />
+  &emsp;&emsp;备份【test001】数据成功！！<br />
+  &emsp;&emsp;备份【test02】数据成功！！<br />
+  &emsp;&emsp;备份【test07】数据成功！！<br />
+</p>
 <p></p>
