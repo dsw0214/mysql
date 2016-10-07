@@ -7,7 +7,7 @@
       hosts=(“127.0.0.1“ “127.0.0.1“)　#数据库连接地址
       port=3306 #数据库连接端口号
   (2)运行效果如下:
-      ![运行效果图](https://github.com/dsw0214/mysql/blob/master/watch_mysql_status.png "运行效果图")
+      ![运行效果图](https://github.com/dsw0214/mysql/blob/master/watch_mysql_status.png "运行效果图") 
 2. mysql_opt.py 数据库操作的脚本，支持被操作数据的自动备份，使用gzip自动压缩备份的数据文件!为了避免生成的备份文件名字重复，会根据当前操作的时间生成文件名!
   (1)运行脚本效果如下:
     请输入连接数据库的账号:
